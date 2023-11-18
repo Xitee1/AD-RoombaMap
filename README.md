@@ -6,6 +6,8 @@ To check if your iRobot vacuum is supported, have a look at its attributes and l
 Tested & works with:
 - Roomba 980
 
+<img src="https://github.com/Xitee1/AppDaemon-useful-apps/assets/59659167/823517c2-d144-49ed-8333-e6b889889b78" height="300">
+
 <br>
 
 ### Warning: This project is still under beta development! It should work but expect some bugs and that some things get changed.
@@ -13,6 +15,7 @@ Tested & works with:
 
 ### TODO:
 - Fix file path problems
+- Update preview image in readme
 - Release on HACS
 
 <br>
