@@ -3,9 +3,10 @@
 This app generates a map of the cleaned area for supported vacuums, from the iRobot HA integration.
 To check if your iRobot vacuum is supported, have a look at its attributes and look for "Position". 
 
-Tested & works with:
-- Roomba 980
+### Tested & works with:
+- **Roomba 980**
 
+### Preview
 <img src="https://github.com/Xitee1/AppDaemon-useful-apps/assets/59659167/823517c2-d144-49ed-8333-e6b889889b78" height="300">
 
 <br>
@@ -21,6 +22,10 @@ Tested & works with:
 <br>
 
 ## App configuration
+### Important
+This apps requires the python package `pillow`. You need to install it before using this app!<br>
+[Read more about how to install custom packages.](https://github.com/Xitee1/AppDaemon-useful-apps/blob/main/INSTALL_PY_PACKAGES.md)
+
 ### Example
 ```yaml
 RoombaMap_roomba:
