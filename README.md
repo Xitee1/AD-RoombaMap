@@ -6,12 +6,16 @@ To check if your iRobot vacuum is supported, have a look at its attributes and l
 Tested & works with:
 - Roomba 980
 
-<br><br>
+<br>
 
 ### Warning: This project is still under beta development! It should work but expect some bugs and that some things get changed.
-## Current state: Not working - problems with file paths
+**Current state**: Not working - problems with file paths
 
-<br><br>
+### TODO:
+- Fix file path problems
+- Release on HACS
+
+<br>
 
 ## App configuration
 ### Example
