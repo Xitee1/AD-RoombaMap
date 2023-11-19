@@ -78,9 +78,8 @@ class Generate(hass.Hass):
             self.log(msg)
 
     """
-    Log UTILS
+    Coords logging UTILS
     """
-
     def load_log(self):
         """
         Loads the log from file.
