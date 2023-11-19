@@ -67,9 +67,9 @@ class Generate(hass.Hass):
 
         # Listeners
         self.run_every(self.generate_image, start="now+10", interval=10)
-        self.entity_vacuum.listen_state(self.write_log, attribute="position")
-        self.entity_vacuum.listen_state(self.clear_log, old="docked", new="cleaning", duration=10)
-        self.entity_vacuum.listen_state(self.save_log, new="docked")
+        self.vacuum_entity.listen_state(self.write_log, attribute="position")
+        self.vacuum_entity.listen_state(self.clear_log, old="docked", new="cleaning", duration=10)
+        self.vacuum_entity.listen_state(self.save_log, new="docked")
 
         self.log("RoombaMap initialized!")
 
@@ -166,8 +166,8 @@ class Generate(hass.Hass):
         # Draw lines
         first_run = True
         for c in self.vacuum_cords:
-            x = c[0] + self.offset_cords_x
-            y = c[1] + self.offset_cords_y
+            x = c[0] + self.map_offset_x
+            y = c[1] + self.map_offset_y
 
             if first_run:
                 first_run = False
