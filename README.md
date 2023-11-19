@@ -43,7 +43,7 @@ RoombaMap_roomba:
 ### Parameters
 | key              | required | type   | default | description                                                                                                                        |
 |------------------|----------|--------|---------|------------------------------------------------------------------------------------------------------------------------------------|
-| `debug`          | False    | bool   | `False` | Enable debug logs.                                                                                                                 |
+| `debug`          | False    | bool   | `False` | Enable debug log messages.                                                                                                         |
 | `vacuum_entity`  | True     | string |         | The entity_id of the vacuum. Make sure the entity has the "Position" attribute!!                                                   |
 | `map_base_image` | True     | string |         | Path to a floor plan of the cleaning area.                                                                                         |
 | `map_offset_x`   | True     | int    |         | X offset for the map. Start by setting it to 0. If the lines are out-of-place, change the value (in pixels) to align it correctly. |
