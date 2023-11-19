@@ -3,11 +3,7 @@
 This app generates a map of the cleaned area for supported vacuums, from the iRobot HA integration.
 To check if your iRobot vacuum is supported, have a look at its attributes and look for "Position". 
 
-### Warning: This project is still under beta development! It should work but expect some bugs and that some things get changed.
-**Current state**: Not working - problems with file paths
-<br><br><br><br>
-
-
+_This project is still in an early state. It should work but there might still be bugs. Make sure to report them :smile:_
 
 ## Preview
 TODO update image
@@ -23,8 +19,6 @@ _In this preview I'm using the [Lovelace Vacuum Map card](https://github.com/Pio
 <br>
 
 ## TODO:
-- Fix file path problems
-- Update camera yaml example with new path if changed
 - Update preview image in readme
 - Release on HACS
 - Error handling for missing/wrong arguments
@@ -43,12 +37,13 @@ RoombaMap_roomba:
   class: Generate
   debug: True
   vacuum_entity: vacuum.roomba
-  map_base_image: /config/floorplans/home.png
+  map_base_image: /homeassistant/floorplans/home.png
   map_offset_x: 200
   map_offset_y: 130
   map_rotation: 90
-  tmp_path: /config/www/tmp
+  tmp_path: /homeassistant/www/tmp
 ```
+_Note: If your addon version is 0.14.0 or below, you should either update or use `config` instead of `homeassistant` in the file paths!_
 
 ### Parameters
 | key              | required | type   | default | description                                                                                                                        |
