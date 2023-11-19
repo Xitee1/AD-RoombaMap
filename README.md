@@ -3,6 +3,10 @@
 This app generates a map of the cleaned area for supported vacuums, from the iRobot HA integration.
 To check if your iRobot vacuum is supported, have a look at its attributes and look for "Position". 
 
+### Warning: This project is still under beta development! It should work but expect some bugs and that some things get changed.
+**Current state**: Not working - problems with file paths
+<br><br><br><br>
+
 ### Tested & works with:
 - **Roomba 980**
 
@@ -14,9 +18,6 @@ _In this preview I'm using the [Lovelace Vacuum Map card](https://github.com/Pio
 
 
 <br>
-
-### Warning: This project is still under beta development! It should work but expect some bugs and that some things get changed.
-**Current state**: Not working - problems with file paths
 
 ### TODO:
 - Fix file path problems
