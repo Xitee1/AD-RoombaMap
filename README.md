@@ -7,7 +7,11 @@ To check if your iRobot vacuum is supported, have a look at its attributes and l
 - **Roomba 980**
 
 ### Preview
-<img src="https://github.com/Xitee1/AppDaemon-useful-apps/assets/59659167/823517c2-d144-49ed-8333-e6b889889b78" height="300">
+TODO update image
+
+<img src="https://github.com/Xitee1/AppDaemon-useful-apps/assets/59659167/823517c2-d144-49ed-8333-e6b889889b78" height="300"><br>
+_In this preview I'm using the [Lovelace Vacuum Map card](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card) which I recommend because it perfectly integrates the map + vacuum infos into your dashboard._
+
 
 <br>
 
