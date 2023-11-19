@@ -33,7 +33,7 @@ _In this preview I'm using the [Lovelace Vacuum Map card](https://github.com/Pio
 
 ## App configuration
 ### Important
-This apps requires the python package `pillow`. You need to install it before using this app!<br>
+This app requires the python package `pillow`. You need to install it before using this app!<br>
 [Read more about how to install custom packages.](https://github.com/Xitee1/AppDaemon-useful-apps/blob/main/INSTALL_PY_PACKAGES.md)
 
 ### Example
