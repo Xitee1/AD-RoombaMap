@@ -20,6 +20,7 @@ _In this preview I'm using the [Lovelace Vacuum Map card](https://github.com/Pio
 
 ### TODO:
 - Fix file path problems
+- Update camera yaml example with new path if changed
 - Update preview image in readme
 - Release on HACS
 
@@ -54,3 +55,13 @@ RoombaMap_roomba:
 | `map_offset_y`   | True     | int    |         | Y offset for the map. Start by setting it to 0. If the lines are out-of-place, change the value (in pixels) to align it correctly. |
 | `map_rotation`   | True     | int    |         | Rotate the map if it doesn't align correctly. Start by setting it to 0 and begin trying with 90, 180, 270 to align it.             |
 | `tmp_path`       | True     | string |         | A path to a folder that should be used for temp storage. In this path, the map image will be generated for you to be used in HA.   |
+
+### Integrate the generated image into HA
+To show the image in HA, just create a new camera with the platform `local_file`.<br>
+**Example:**
+```yaml
+camera:
+  - platform: local_file
+    name: Roomba Map
+    file_path: /config/www/tmp/vacuum_roomba/map.png
+```
