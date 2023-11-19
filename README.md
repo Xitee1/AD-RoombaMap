@@ -18,6 +18,7 @@ To check if your iRobot vacuum is supported, have a look at its attributes and l
 - Fix file path problems
 - Update preview image in readme
 - Release on HACS
+- Error handling for missing/wrong arguments
 
 <br>
 
