@@ -7,6 +7,10 @@ _This project is still in an early state. It should work but there might still b
 
 ## Preview
 <img src="https://github.com/user-attachments/assets/4c6403d3-4c7d-463f-8883-17550c32da9e" height="300"><br>
+
+Please note that this App cannot create a floor plan. You need to provide it yourself.
+It only draws the red line to indicate where the robot has traveled.
+
 _In this preview, I'm using the [Lovelace Vacuum Map](https://github.com/PiotrMachowski/lovelace-xiaomi-vacuum-map-card) card for a nice combined view of map, controls and sensors._
 
 <br>
